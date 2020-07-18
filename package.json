@@ -1,9 +1,27 @@
 {
-    "name": "service-items",
-    "version": "1.0.0",
-    "description": "Service for manage items",
-    "main": "app.js",
-    "repository": "git@github.com:sheenazien8/servvice-items.git",
-    "author": "sheenazien8",
-    "license": "MIT"
+  "name": "service-items",
+  "version": "1.0.0",
+  "description": "Service for manage items",
+  "main": "app.js",
+  "repository": "git@github.com:sheenazien8/servvice-items.git",
+  "author": "sheenazien8",
+  "license": "MIT",
+  "scripts": {
+    "watch": "nodemon app.js",
+    "test": "./node_modules/.bin/mocha tests/*.js --exit"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.3",
+    "sequelize-cli": "^6.2.0",
+    "fs": "^0.0.1-security",
+    "dotenv": "^4.17.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express-handlebars": "^5.0.0",
+    "mocha": "^8.0.1",
+    "mysql2": "^2.1.0"
+  }
 }
