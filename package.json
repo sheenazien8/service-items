@@ -1,0 +1,9 @@
+{
+    "name": "service-items",
+    "version": "1.0.0",
+    "description": "Service for manage items",
+    "main": "app.js",
+    "repository": "git@github.com:sheenazien8/servvice-items.git",
+    "author": "sheenazien8",
+    "license": "MIT"
+}
